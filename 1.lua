@@ -15,5 +15,5 @@ for i = 1, 999 do
 	end
 end
 
---We've Done ItS
+--We've Done It!!
 print("The Sum of Multiples of 3 or 5 below 1000 is "..sum)
