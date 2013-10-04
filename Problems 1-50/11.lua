@@ -43,12 +43,12 @@ end
 
 --The Main Loop
 for i = 1, 20 do
-	for j = 1, 20 do		
+	for j = 1, 20 do
 		p1 = eval(tNum[i][j])*(eval(tNum[i+1][j-1]))*(eval(tNum[i+2][j-2]))*(eval(tNum[i+3][j-3])) --Bottom Left
 		p2 = eval(tNum[i][j])*eval(tNum[i+1][j+1])*eval(tNum[i+2][j+2])*eval(tNum[i+3][j+3]) --Bottom Right
 		p3 = eval(tNum[i][j])*eval(tNum[i][j+1])*eval(tNum[i][j+2])*eval(tNum[i][j+3]) --Right Row
 		p4 = eval(tNum[i][j])*eval(tNum[i+1][j])*eval(tNum[i+2][j])*eval(tNum[i+3][j]) --Down Coloumn
-		
+
 		pLarge = max(p1, p2, p3, p4, pLarge)
 	end
 end
