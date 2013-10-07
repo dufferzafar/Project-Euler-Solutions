@@ -17,7 +17,7 @@ for a = 200, 0, -200 do
 				for e = d, 0, -10 do
 					for f = e, 0, -5 do
 						for g = f, 0, -2 do
-                            nWays = nWays + 1
+                     nWays = nWays + 1
 						end
 					end
 				end
