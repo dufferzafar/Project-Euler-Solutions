@@ -10,6 +10,6 @@ Friday, January 06, 2012
 n = 100;
 
 x = ((n^2 + n)/2)^2				--Square of Sums
-y = ((n^2 + n)*(2*n + 1))/6		--Sum of Squares
+y = ((n^2 + n)*(2*n + 1))/6	--Sum of Squares
 
 print(x - y);
