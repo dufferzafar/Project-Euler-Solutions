@@ -1,5 +1,5 @@
 # Project Euler Solutions
 
-My solutions of the [Project Euler](www.projecteuler.net) problems, solved in Lua.
+*Status: Will be updated when I solve a new problem. I have a dream. Learn haskell and solve all of them.*
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dufferzafar/project-euler-soultions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+My solutions of the [Project Euler](www.projecteuler.net) problems, solved in Lua.
